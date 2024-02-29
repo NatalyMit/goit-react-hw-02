@@ -22,24 +22,6 @@ function App() {
     return feedbackObj;
   });
 
-  // const updateGood = () => {
-  //   setValues({
-  //     ...values,
-  //     good: Number(values.good) + 1,
-  //   });
-  // };
-  // const updateNeutral = () => {
-  //   setValues({
-  //     ...values,
-  //     neutral: Number(values.neutral) + 1,
-  //   });
-  // };
-  // const updateBad = () => {
-  //   setValues({
-  //     ...values,
-  //     bad: Number(values.bad) + 1,
-  //   });
-  // };
   const updateFeedback = feedbackType => {
     setValues(values => ({
       ...values,
@@ -78,11 +60,6 @@ function App() {
         />
       )}
 
-      {/* <p>Good: {values.good}</p>
-      <p>Neutral: {values.neutral}</p>
-      <p>Bad: {values.bad}</p>
-      <p>Total: {totalFeedback}</p>
-      <p>Positive : {!positiveStatistics ? 0 : positiveStatistics}%</p> */}
     </>
   );
 }

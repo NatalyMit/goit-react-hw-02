@@ -1,0 +1,16 @@
+.btnConteiner {
+  display: flex;
+  gap: 8px;
+}
+.btnCounter {
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
+  border-radius: 4px;
+  border-color: rgb(105, 103, 103);
+  background-color: #ebe9e9;
+  padding: 4px 10px;
+}
+
+.btnCounter:hover {
+  background-color: #9b9898;
+}
